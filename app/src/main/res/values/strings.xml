@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Salomatlik</string>
+    <string name="strReprSalomatlik">Репродуктив саломатлик</string>
+    <string name="strReprXuquq">Репродуктив ҳуқуқ</string>
+    <string name="strSoglomNikohUchunMuxim">Соғлом никоҳ учун муҳим бўлган  асослар</string>
+    <string name="strIstalmaganXomiladorlikningOnaSalomatligi">Исталмаган ҳомиладорликнинг  она саломатлиги учун хавф туғдириши мумкин бўлган ҳолатлар</string>
+    <string name="strMaslaxatolibborishjarayoni">Маслаҳат олиб бориш жараёни</string>
+    <string name="strIstalmaganXomiladorlikdanSaqlovchi">Исталмаган ҳомиладорликдан сақловчи замонавий воситалар</string>
+    <string name="strOIVodamimmuntanqisligivirusi">ОИВ–одам иммунтанқислиги вируси</string>
+    <string name="strJinsiyYolOrqaliyuqadigankasalliklar">Жинсий йўл орқали юқадиган касалликлар</string>
+    <string name="strBexataronalikbosqichlari">Бехатар оналик босқичлари</string>
+    <string name="strXomiladorlarningShifokorgaTashrifimuddatlariVaAfzalliklari">Ҳомиладорларнинг шифокорга ташрифи муддатлари ва афзалликлар</string>
+    <string name="strTogriOvqatlanish">Тўғри овқатланиш</string>
+    <string name="strOnasutiVaUningAfzalliklari">Она сути ва унинг афзалликлари</string>
+    <string name="strSoglomTurmushTarziAsoslari">Сoғлoм турмуш тaрзи aсoслaри</string>
+    <string name="strSutBeziVaBachadonBoyniSaratoni">Сут бези ва бачадон бўйни саратони диагностикаси ва олдини олиш</string>
+    <string name="strSutBeziSaratoni">Сут бези саратони</string>
+    <string name="strBachadonBoyniSaratoni">Бачадон  бўйни саратони</string>
+    <string name="strSaratonniErtaBosqichlardaAniqlashUsullari">Саратонни эрта босқичларда аниқлаш усуллари</string>
+    <string name="strSutBeziVaBachadonBoyniSaratoniningOldiniOlishi">Сут бези ва бачадон бўйни саратонининг олдини олиш бўйича кўрсатмалар</string>
+    <string name="str_Bolimlar">Бўлимлар</string>
+    <string name="str_News">Янгиликлар</string>
+    <string name="str_Advanced">Таклиф ва мурожатлар</string>
+    <string name="str_Info">Дастур ҳақида</string>
+</resources>

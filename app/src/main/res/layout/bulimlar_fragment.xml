@@ -1,0 +1,492 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fl_home"
+    tools:context=".Main_Menu"
+    >
+    <ScrollView
+        android:id="@+id/MainLinear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="16dp"
+        android:fillViewport="true">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:isScrollContainer="true"
+            android:orientation="vertical"
+            android:scrollbars="vertical"
+            android:verticalScrollbarPosition="right"
+            >
+
+            <LinearLayout
+                android:id="@+id/linearReprSalomatlik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/circle_ugol"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:shape="oval"
+                android:onClick="OnClickFragment"
+                 >
+
+                <ImageView
+                    android:layout_width="41dp"
+                    android:layout_height="27dp"
+                    android:layout_marginStart="8dp"
+                    android:src="@drawable/iconforstr"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:text="@string/strReprSalomatlik"
+                    android:textAlignment="center"
+                    android:textColor="@color/colortxtViews"
+                    android:textSize="20dp">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearReprXuquq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/circle_ugol"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="41dp"
+                    android:layout_height="27dp"
+                    android:layout_marginStart="8dp"
+                    android:src="@drawable/iconforstr" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginRight="8dp"
+                    android:text="@string/strReprXuquq"
+                    android:textAlignment="center"
+                    android:textColor="@color/colortxtViews"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearSoglomNikohUchunMuxim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/circle_ugol"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="41dp"
+                    android:layout_height="27dp"
+                    android:layout_marginStart="8dp"
+                    android:src="@drawable/iconforstr" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginRight="8dp"
+                    android:text="@string/strSoglomNikohUchunMuxim"
+                    android:textColor="@color/colortxtViews"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearIstalmaganXomiladorlikningOnaSalomatligi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/circle_ugol"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="41dp"
+                    android:layout_height="27dp"
+                    android:layout_marginStart="8dp"
+                    android:src="@drawable/iconforstr" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginRight="8dp"
+                    android:text="@string/strIstalmaganXomiladorlikningOnaSalomatligi"
+                    android:textColor="@color/colortxtViews"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearMaslaxatolibborishjarayoni"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/circle_ugol"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="41dp"
+                    android:layout_height="27dp"
+                    android:layout_marginStart="8dp"
+                    android:src="@drawable/iconforstr" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginRight="8dp"
+                    android:text="@string/strMaslaxatolibborishjarayoni"
+                    android:textColor="@color/colortxtViews"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearIstalmaganXomiladorlikdanSaqlovchi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/circle_ugol"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="41dp"
+                    android:layout_height="27dp"
+                    android:layout_marginStart="8dp"
+                    android:src="@drawable/iconforstr" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginRight="8dp"
+                    android:text="@string/strIstalmaganXomiladorlikdanSaqlovchi"
+                    android:textColor="@color/colortxtViews"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearOIVodamimmuntanqisligivirusi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/circle_ugol"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="41dp"
+                    android:layout_height="27dp"
+                    android:layout_marginStart="8dp"
+                    android:src="@drawable/iconforstr" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginRight="8dp"
+                    android:text="@string/strOIVodamimmuntanqisligivirusi"
+                    android:textColor="@color/colortxtViews"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearJinsiyYolOrqaliyuqadigankasalliklar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/circle_ugol"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="41dp"
+                    android:layout_height="27dp"
+                    android:layout_marginStart="8dp"
+                    android:src="@drawable/iconforstr" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginRight="8dp"
+                    android:text="@string/strJinsiyYolOrqaliyuqadigankasalliklar"
+                    android:textColor="@color/colortxtViews"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearBexataronalikbosqichlari"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/circle_ugol"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="41dp"
+                    android:layout_height="27dp"
+                    android:layout_marginStart="8dp"
+                    android:src="@drawable/iconforstr" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginRight="8dp"
+                    android:text="@string/strBexataronalikbosqichlari"
+                    android:textColor="@color/colortxtViews"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearXomiladorlarningShifokorgaTashrifimuddatlariVaAfzalliklari"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/circle_ugol"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="41dp"
+                    android:layout_height="27dp"
+                    android:layout_marginStart="8dp"
+                    android:src="@drawable/iconforstr" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginRight="8dp"
+                    android:text="@string/strXomiladorlarningShifokorgaTashrifimuddatlariVaAfzalliklari"
+                    android:textColor="@color/colortxtViews"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearTogriOvqatlanish"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/circle_ugol"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="41dp"
+                    android:layout_height="27dp"
+                    android:layout_marginStart="8dp"
+                    android:src="@drawable/iconforstr" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginRight="8dp"
+                    android:text="@string/strTogriOvqatlanish"
+                    android:textColor="@color/colortxtViews"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearOnasutiVaUningAfzalliklari"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/circle_ugol"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="41dp"
+                    android:layout_height="27dp"
+                    android:layout_marginStart="8dp"
+                    android:src="@drawable/iconforstr" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginRight="8dp"
+                    android:text="@string/strOnasutiVaUningAfzalliklari"
+                    android:textColor="@color/colortxtViews"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearSoglomTurmushTarziAsoslari"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/circle_ugol"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="41dp"
+                    android:layout_height="27dp"
+                    android:layout_marginStart="8dp"
+                    android:src="@drawable/iconforstr" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginRight="8dp"
+                    android:text="@string/strSoglomTurmushTarziAsoslari"
+                    android:textColor="@color/colortxtViews"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearSutBeziSaratoni"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/circle_ugol"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="41dp"
+                    android:layout_height="27dp"
+                    android:layout_marginStart="8dp"
+                    android:src="@drawable/iconforstr" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginRight="8dp"
+                    android:text="@string/strSutBeziSaratoni"
+                    android:textColor="@color/colortxtViews"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearBachadonBoyniSaratoni"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/circle_ugol"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="41dp"
+                    android:layout_height="27dp"
+                    android:layout_marginStart="8dp"
+                    android:src="@drawable/iconforstr" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginRight="8dp"
+                    android:text="@string/strBachadonBoyniSaratoni"
+                    android:textColor="@color/colortxtViews"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearSaratonniErtaBosqichlardaAniqlashUsullari"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/circle_ugol"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="41dp"
+                    android:layout_height="27dp"
+                    android:layout_marginStart="8dp"
+                    android:src="@drawable/iconforstr" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginRight="8dp"
+                    android:text="@string/strSaratonniErtaBosqichlardaAniqlashUsullari"
+                    android:textColor="@color/colortxtViews"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearSutBeziVaBachadonBoyniSaratoniningOldiniOlishi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/circle_ugol"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="41dp"
+                    android:layout_height="27dp"
+                    android:layout_marginStart="8dp"
+                    android:src="@drawable/iconforstr" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginRight="8dp"
+                    android:text="@string/strSutBeziVaBachadonBoyniSaratoniningOldiniOlishi"
+                    android:textColor="@color/colortxtViews"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

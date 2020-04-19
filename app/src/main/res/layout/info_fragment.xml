@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circle_ugol"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Toshmuxammedova Diloram Gafurjanovna"
+                android:textSize="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="O'zbekiston Respulikasi Vazirlar Mahkamasi huzuridagi 'Oila' ilmiy-amaliy tadqiqot markazi direktori"
+                android:textSize="14dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circle_ugol"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Bilolova Zamiraxon Baxtiyarovna"
+                android:textSize="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vazirlar maxkamasi xuzuridagi 'Oila' ilmiy-amaliy tadqiqot markazi bosh mutaxassisi, ilmiy xodimi, psixolog"
+                android:textSize="14dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circle_ugol"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Kasimova Shoista Tashxodjayevna"
+                android:textSize="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universitet dotsenti"
+                android:textSize="14dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circle_ugol"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Mirzayev Javohir Baxodir o'gli"
+                android:textSize="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universitet talabasi"
+                android:textSize="14dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

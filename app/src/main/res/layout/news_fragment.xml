@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fl_home">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/circle_ugol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Дастурни янги ўзгаришлари билан кўчириб олинг"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/circle_ugol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Янги қизиқарди иловаларни бизнинг телеграм каналимиздан кўчириб олинг. https://t.me/joinchat/HdJYzVSFtg0635kWGk5ZHA"
+            android:textSize="16dp"/>
+    </LinearLayout>
+</FrameLayout>
